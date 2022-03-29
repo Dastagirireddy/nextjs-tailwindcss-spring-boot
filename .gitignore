@@ -34,31 +34,31 @@ build/
 
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# dependencies
-src/main/ui/node_modules
-src/main/ui/.pnp
+src/main/webapp/node
+src/main/webapp/node_modules
+src/main/webapp/.pnp
 src/main/ui.pnp.js
 
 # testing
-src/main/ui/coverage
+src/main/webapp/coverage
 
 # next.js
-src/main/ui/.next/
-src/main/ui/out/
+src/main/webapp/.next/
+src/main/webapp/out/
 
 # production
-src/main/ui/build
+src/main/webapp/build
 
 # misc
 .DS_Store
 
 # debug
-src/main/ui/npm-debug.log*
-src/main/ui/yarn-debug.log*
-src/main/ui/yarn-error.log*
+src/main/webapp/npm-debug.log*
+src/main/webapp/yarn-debug.log*
+src/main/webapp/yarn-error.log*
 
 # local env files
-src/main/ui/.env.local
-src/main/ui/.env.development.local
-src/main/ui/.env.test.local
-src/main/ui/.env.production.local
+src/main/webapp/.env.local
+src/main/webapp/.env.development.local
+src/main/webapp/.env.test.local
+src/main/webapp/.env.production.local

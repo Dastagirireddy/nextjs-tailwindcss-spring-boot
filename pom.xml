@@ -17,7 +17,7 @@
         <java.version>1.8</java.version>
         <node.version>v14.18.1</node.version>
         <npm.version>6.14.15</npm.version>
-        <clientAppDirectory>src/main/ui</clientAppDirectory>
+        <clientAppDirectory>src/main/webapp</clientAppDirectory>
         <frontend-maven-plugin.version>1.6</frontend-maven-plugin.version>
     </properties>
     <dependencies>
@@ -120,7 +120,7 @@
                             <outputDirectory>${project.build.outputDirectory}/static</outputDirectory>
                             <resources>
                                 <resource>
-                                    <directory>src/main/ui/out</directory>
+                                    <directory>${clientAppDirectory}/out</directory>
                                     <filtering>false</filtering>
                                 </resource>
                             </resources>
