@@ -17,7 +17,7 @@
         <java.version>1.8</java.version>
         <node.version>v14.18.1</node.version>
         <npm.version>6.14.15</npm.version>
-        <clientAppDir>src/main/ui</clientAppDir>
+        <clientAppDirectory>src/main/ui</clientAppDirectory>
         <frontend-maven-plugin.version>1.6</frontend-maven-plugin.version>
     </properties>
     <dependencies>
@@ -79,7 +79,7 @@
                             <goal>install-node-and-npm</goal>
                         </goals>
                         <configuration>
-                            <workingDirectory>${clientAppDir}</workingDirectory>
+                            <workingDirectory>${clientAppDirectory}</workingDirectory>
                         </configuration>
                     </execution>
 
@@ -89,7 +89,7 @@
                             <goal>npm</goal>
                         </goals>
                         <configuration>
-                            <workingDirectory>${clientAppDir}</workingDirectory>
+                            <workingDirectory>${clientAppDirectory}</workingDirectory>
                             <arguments>install</arguments>
                         </configuration>
                     </execution>
@@ -100,7 +100,7 @@
                             <goal>npm</goal>
                         </goals>
                         <configuration>
-                            <workingDirectory>${clientAppDir}</workingDirectory>
+                            <workingDirectory>${clientAppDirectory}</workingDirectory>
                             <arguments>run build</arguments>
                         </configuration>
                     </execution>
